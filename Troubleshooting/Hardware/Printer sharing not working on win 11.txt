@@ -1,0 +1,176 @@
+Fix printer sharing by updating driver
+
+To fix a shared printer on Windows 11, use these steps:
+
+    Open Settings on Windows 11.
+
+    Click on Windows Update.
+
+    Click the Advanced options tab.
+
+    Advanced options
+
+    Under the “Additional options” section, click the Optional updates setting.
+
+    Optional updates
+
+    Select the printer driver update.
+
+    Click the “Download and install” button.
+
+Once you complete the steps, try to send a print job to confirm the printer is working.
+Fix printer sharing by removing recent update
+
+To remove a problematic update conflicting with the printer driver or networking settings, use these steps:
+
+    Open Settings.
+
+    Click on Windows Update.
+
+    Click the Update history tab.
+
+    Update history
+
+    Under the “Related settings” section, click the Uninstall updates option.
+
+    Uninstall updates
+
+    Click the Uninstall button for the most recent update.
+
+    Windows 11 uninstall update
+
+After you complete the steps, you may need to restart the computer, and upon restart, send a new print job to confirm the printer is working.
+Fix printer sharing with Troubleshooter
+
+To run the printer troubleshooter to resolve common sharing problems, use these steps:
+
+    Open Settings.
+
+    Click on Bluetooth & devices.
+
+    Click the Printers & scanners tab.
+
+    Printers & scanners
+
+    Under the “Related settings” section, click the Troubleshoot option.
+
+    Troubleshoot
+
+    Select the shared printer with the problem.
+
+    Shared printer troubleshoot
+
+    Click the Next button.
+
+    Continue with the on-screen directions (if necessary).
+
+Once you complete the steps, the Troubleshooter should be able to detect and resolve the sharing or any other problem affecting the printer.
+Fix printer sharing with firewall troubleshooting
+
+To resolve firewall problems sharing a printer on Windows 11, use these steps:
+
+    Open Windows Security.
+
+    Click on Firewall & network protection.
+
+    Click the active network – for example, “Private network.”
+
+    Network firewall
+
+    Turn off the “Microsoft Defender Firewall” toggle switch.
+
+    Disable firewall to fix printer sharing
+
+    Clear the “Blocks all incoming connections, including those in the list of allowed apps” option.
+
+Once you complete the steps, try to print one more time, and if the print job is sent successfully, then the problem may be related to the firewall configuration.
+Allow printer over firewall
+
+To allow a printer over the firewall on Windows 11, use these steps:
+
+    Open Windows Security.
+
+    Click on Firewall & network protection.
+
+    Click the “Allow an app through firewall” setting.
+
+    Allow an app through firewall
+
+    Click the Change settings button.
+
+    Check the “Network Discovery” option with the Private option (and select the Public option if you are in a public network).
+
+    Check the “File and Printer Sharing” option with the Private option (and choose the “Public” option if you’re in a public network).
+
+    Allow printer through firewall
+
+If you’re troubleshooting devices that use the SMB protocol, refer to this Microsoft documentation page.
+Fix printer sharing with reshare configuration
+
+To reshare a printer, you must first stop the current configuration and reconfigure the share settings.
+Stop printer share
+
+To stop sharing a printer on Windows 11, use these steps:
+
+    Open Settings.
+
+    Click on Bluetooth & devices.
+
+    Click the Printers & scanners tab.
+
+    Printers & scanners
+
+    Select the shared printer in the network.
+
+    Shared printer
+
+    Click the Printer settings tab.
+
+    Click the Printer properties setting.
+
+    Printer properties
+
+    Click the Sharing tab.
+
+    Clear the “Share this printer” option.
+
+    Stop printer sharing
+
+    Click the Apply button.
+
+    Click the OK button.
+
+After completing the steps, confirm you can print to the printer locally and then share the printer again.
+Start printer share
+
+To share a printer in the network on Windows 11, use these steps:
+
+    Open Settings.
+
+    Click on Bluetooth & devices.
+
+    Click the Printers & scanners tab.
+
+    Printers & scanners
+
+    Select the shared printer in the network.
+
+    Shared printer
+
+    Click the Printer settings tab.
+
+    Click the Printer properties setting.
+
+    Printer properties
+
+    Click the Sharing tab.
+
+    Check the “Share this printer” option.
+
+    Enable printer share
+
+    Click the Apply button.
+
+    Click the OK button.
+
+Once you complete the steps, you should be able to print again to the shared printer.
